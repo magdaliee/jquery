@@ -12,3 +12,7 @@ paragraphs.each(function(index, element) {
     $(element).append(button) 
 
 });
+
+$("button").click(function(){
+	alert($(this).attr("data-tmp"));
+});
